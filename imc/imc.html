@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC :D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logoSus.png" alt="Logo do SUS" id="logo-sus" />
+    
+    <div class="container">
+        <h1>Veja seu IMC :D</h1>
+        <form id="imc">
+            <label for="peso"> Peso (Kg): </label>
+            <input type="number" id="peso" required step="0.1"/><!-- ate 1 casa decimal-->
+
+            <label for="altura"> Altura rs (metro): </label>
+            <input type="number" id="altura" required step="0.01"/><!-- ate 1 casa decimal-->
+
+            <button type="submit"> Calcular S2 </button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+            
+<script src="script.js"></script>
+</body>
+</html>

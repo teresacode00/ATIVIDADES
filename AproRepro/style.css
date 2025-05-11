@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  margin: 80px auto 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#emoji {
+  width: 100px;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.5s;
+}
+
+/* Fundo dinâmico */
+body.aprovado {
+  background-color: #b3ffcc;
+}
+
+body.reprovado {
+  background-color: #ffcccc;
+}

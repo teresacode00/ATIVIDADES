@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tempo de Viagem</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="caminho">
+    <span class="ponto">A</span>
+    <img src="carro.png" alt="Carro" id="carro" />
+    <span class="ponto">B</span>
+  </div>
+
+  <div class="container">
+    <h1>Calculadora de Tempo de Viagem</h1>
+
+    <form id="form-viagem">
+      <label for="distancia">Distância (km):</label>
+      <input type="number" id="distancia" required step="0.1" />
+
+      <label for="velocidade">Velocidade (km/h):</label>
+      <input type="number" id="velocidade" required step="0.1" />
+
+      <button type="button" id="calcular">Calcular Tempo</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #007bff, #ffffff); /* Gradiente azul para branco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo-sus {
+  position: absolute;
+  top: 20px;  /* distância do topo */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  width: 100px;  /* Ajuste o tamanho conforme necessário */
+}

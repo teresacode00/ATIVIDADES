@@ -1,0 +1,10 @@
+1.IMC
+2.Dolar para real
+3.Media Ponderada
+4.Celsius p fahreheit C= 5/9 * (F-32)
+5.Tempo viagem dado d e v
+6.Aprovado ou não
+7.Par ou ímpar
+8.Somar números ate digitar 0
+9.Tabuada de um número
+10.Contagem regressiva

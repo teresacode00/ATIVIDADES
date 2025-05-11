@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #7ccc71, #ffffff); /* Gradiente azul para branco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* rotação da logo */
+#logo-moeda {
+  position: absolute;
+  top: 20px; /* Distância do topo */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  width: 100px; /* muda o tamanho da logo*/
+  animation: girar 5s linear infinite; /* Cria a animação de rotação */
+}
+
+/* Definindo a animação de rotação */
+@keyframes girar {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  } }

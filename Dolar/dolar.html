@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor Dólar para Real</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <img src="moeda.png" alt="Logo Moeda" id="logo-moeda" />
+  <div class="container">
+    <h1>Conversor de Dólar para Real</h1>
+    
+    <!-- Campo para valor em Dólares -->
+    <label for="valor-dolar">Valor em Dólares (USD):</label>
+    <input type="number" id="valor-dolar" placeholder="Digite o valor em dólares" />
+
+    <!-- Campo para cotação do Dólar -->
+    <label for="cotacao-dolar">Cotação atual do Dólar (R$):</label>
+    <input type="number" id="cotacao-dolar" placeholder="Digite a cotação atual do dólar" step="0.01" />
+
+    <!-- Botão para converter -->
+    <button type="button" id="converter">Converter</button>
+
+    <!-- Resultado da conversão -->
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
